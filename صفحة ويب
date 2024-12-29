@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>موقع إلكتروني رائع</title>
+    <style>
+        /* إعدادات عامه للصفحة */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        /* تنسيق الهيدر */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* تنسيق شريط التنقل */
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: right;
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* تنسيق الأقسام */
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            margin: 20px 0;
+        }
+
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #666;
+        }
+
+        /* تنسيق الجداول */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        /* تنسيق الفوتر */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* تحسين مظهر النماذج */
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1.2em;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        /* تحسين التنسيق الخاص بالعناصر */
+        .cta-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- الهيدر -->
+    <header>
+        <h1>أهلاً بك في موقعنا الإلكتروني الرائع</h1>
+        <p>نحن هنا لتقديم أفضل الخدمات لك!</p>
+    </header>
+
+    <!-- شريط التنقل -->
+    <nav>
+        <a href="#home">الرئيسية</a>
+        <a href="#about">من نحن</a>
+        <a href="#services">خدماتنا</a>
+        <a href="#contact">اتصل بنا</a>
+    </nav>
+
+    <!-- القسم الرئيسي: الترحيب -->
+    <section id="home">
+        <h2>مرحباً بك!</h2>
+        <p>نحن هنا لنقدم لك أفضل تجربة عبر الإنترنت. استكشف خدماتنا المختلفة الآن.</p>
+        <a href="#services" class="cta-button">استكشف خدماتنا</a>
+        <img src="https://via.placeholder.com/1200x600" alt="صورة ترحيبية">
+    </section>
+
+    <!-- قسم "من نحن" -->
+    <section id="about">
+        <h2>من نحن</h2>
+        <p>نحن شركة متخصصة في تقديم حلول مبتكرة في تصميم المواقع الإلكترونية وتطويرها. نسعى دائماً لتلبية احتياجات عملائنا من خلال تقديم أفضل الحلول التكنولوجية.</p>
+    </section>
+
+    <!-- قسم "خدماتنا" -->
+    <section id="services">
+        <h2>خدماتنا</h2>
+        <table>
+            <tr>
+                <th>الخدمة</th>
+                <th>الوصف</th>
+                <th>التكلفة</th>
+            </tr>
+            <tr>
+                <td>تصميم مواقع الويب</td>
+                <td>تصميم مواقع مبتكرة وسهلة الاستخدام تلبي احتياجات عملائنا.</td>
+                <td>ابتداءً من 1000 ريال</td>
+            </tr>
+            <tr>
+                <td>تحسين محركات البحث (SEO)</td>
+                <td>تحسين ظهور موقعك على محركات البحث لزيادة الظهور والوصول.</td>
+                <td>ابتداءً من 500 ريال</td>
+            </tr>
+            <tr>
+                <td>تطوير التطبيقات</td>
+                <td>تطوير تطبيقات موبايل مبتكرة تعمل على جميع الأنظمة.</td>
+                <td>ابتداءً من 1500 ريال</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- قسم "اتصل بنا" -->
+    <section id="contact">
+        <h2>اتصل بنا</h2>
+        <p>إذا كان لديك أي استفسار أو طلب خاص، لا تتردد في الاتصال بنا. نحن هنا للمساعدة!</p>
+        <form action="submit_form.php" method="post">
+            <input type="text" name="name" placeholder="اسمك" required>
+            <input type="email" name="email" placeholder="بريدك الإلكتروني" required>
+            <textarea name="message" rows="5" placeholder="اكتب رسالتك هنا..." required></textarea>
+            <input type="submit" value="إرسال الرسالة">
+        </form>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <p>&copy; 2024 جميع الحقوق محفوظة | <a href="#privacy-policy">سياسة الخصوصية</a></p>
+    </footer>
+
+</body>
+</html>
